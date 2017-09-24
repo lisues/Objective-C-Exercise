@@ -10,7 +10,7 @@
 
 @implementation RPSTurn
 
--(instancetype) initWithMove: (Move *)move {
+-(instancetype) initWithMove: (Move) move {
     self = [super init];
     
     if (self) {

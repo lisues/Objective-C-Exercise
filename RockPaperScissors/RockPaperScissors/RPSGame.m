@@ -11,8 +11,8 @@
 
 @implementation RPSGame
 
--(instancetype) initWithFirstMove: (Move *)firstTurn
-                       SecondMove: (Move *)secondTurn {
+-(instancetype) initWithFirstMove: (RPSTurn *)firstTurn
+                       SecondMove: (RPSTurn *)secondTurn {
     self = [super init];
     
     if (self) {

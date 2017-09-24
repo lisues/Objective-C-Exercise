@@ -11,10 +11,10 @@
 
 @interface RPSGame : NSObject
 
-@property (nonatomic) Move *firstTurn;
-@property (nonatomic) Move *secondTurn;
+@property (nonatomic) RPSTurn *firstTurn;
+@property (nonatomic) RPSTurn *secondTurn;
 
--(instancetype) initWithFirstMove: (Move *)firstTurn
-                       SecondMove: (Move *)secondTurn;
+-(instancetype) initWithFirstMove: (RPSTurn *)firstTurn
+                       SecondMove: (RPSTurn *)secondTurn;
 
 @end
