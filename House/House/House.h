@@ -10,7 +10,7 @@
 
 @interface House : NSObject
 
-@property (nonatomic, copy) NSString *address;
+@property (nonatomic) NSString *address;
 @property (nonatomic, readonly) int numberOfBedrooms;
 @property (nonatomic) bool hasHotTub;
 
