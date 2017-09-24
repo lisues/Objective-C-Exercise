@@ -15,26 +15,7 @@
 @property (nonatomic) bool hasHotTub;
 
 -(instancetype)initWithAddress: (NSString*)address;
-
-
+//-(instancetype)initWithAddress: (NSString*)address; --.h
+//-(instancetype)initWithAddress: (NSMutableString*)address --.m
 @end
 
-
-
-/*
- #import <Foundation/Foundation.h>
- #import  <Person.h>
- 
- @interface Book: NSObject
- 
- @property (nonatomic, copy) NSString *title;
- @property (nonatomic, readonly) NSString *author;
- @property (nonatomic, readonly) int year;
- @property (nonatomic) Person *person;
- 
- -(instancetype) initWithTitle: NSString *title
- author: NSString *author
- year: int;
- 
- @end
-*/
