@@ -19,3 +19,20 @@
 -(instancetype)initWithTitle: (NSString *)title;
 
 @end
+
+
+/*
+ #import "Person.h"
+ 
+ @interface Book : NSObject
+ 
+ @property (nonatomic) NSString *title;
+ @property (nonatomic) Person *author;
+ @property (nonatomic) int yearOfPublication;
+ 
+ -(instancetype)initWithTitle:(NSString*)title
+ author:(Person*)author
+ year:(int)year;
+ 
+ @end
+ */

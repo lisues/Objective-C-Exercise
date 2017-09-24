@@ -22,3 +22,19 @@
 }
 
 @end
+
+
+
+/*
+ -(instancetype)initWithName:(NSString*)name birthday:(NSDate*)birthday {
+ self = [super init];
+ 
+ if(self) {
+ _name = name;
+ _birthday = birthday;
+ }
+ 
+ return self;
+ }
+
+*/

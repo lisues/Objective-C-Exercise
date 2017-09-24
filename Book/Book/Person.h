@@ -16,3 +16,16 @@
 -(instancetype) initWithName: (NSString *)name;
 
 @end
+
+
+
+/*
+ // Person.h
+ 
+ @interface Person : NSObject
+ 
+ @property (nonatomic) NSString *name;
+ @property (nonatomic) NSDate *birthday;
+ 
+ @end
+ */
