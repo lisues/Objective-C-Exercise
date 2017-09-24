@@ -10,4 +10,16 @@
 
 @implementation Book
 
+-(instancetype) initWithTitle: (NSString *)title {
+    self = [super init];
+    
+    if (self) {
+        _title = [title copy];
+        _author = nil;
+        _publishYear = 2017;
+    }
+    
+    return self;
+}
+
 @end

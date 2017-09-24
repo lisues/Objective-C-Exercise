@@ -10,4 +10,10 @@
 
 @interface Book : NSObject
 
+@property (nonatomic) NSString *title;
+@property (nonatomic) NSString *author;
+@property (nonatomic) int publishYear;
+
+-(instancetype)initWithTitle: (NSString *)title;
+
 @end
