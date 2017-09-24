@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Book.h"
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -17,8 +18,10 @@ int main(int argc, const char * argv[]) {
     
     NSMutableString *newBookTitle = [[NSMutableString alloc] initWithString: @"Most Fun Book"];
     Book *newBook = [[Book alloc] initWithTitle: newBookTitle];
-    newBook.author = [[NSMutableString alloc] initWithString: @"Lisue She"];
-    NSLog(@"\nBook Title: %@ \nauthor: %@ \nyear: %d", newBook.title, newBook.author, newBook.publishYear);
+//    newBook.author = [[NSMutableString alloc] initWithString: @"Lisue She"];
+    Person *author = [[Person alloc] initWithName:@"Lisue She"];
+    newBook.author = author;
+    NSLog(@"\nBook Title: %@ \nauthor: %@ \nyear: %d", newBook.title, newBook.author.name, newBook.publishYear);
     
     return 0;
 }

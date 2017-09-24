@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B17F5F81F774BAE0028D25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F5F71F774BAE0028D25D /* main.m */; };
 		3B17F6001F774C1A0028D25D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F5FF1F774C1A0028D25D /* Book.m */; };
+		3B17F6031F780C140028D25D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F6021F780C130028D25D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		3B17F5F71F774BAE0028D25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B17F5FE1F774C1A0028D25D /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		3B17F5FF1F774C1A0028D25D /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		3B17F6011F780C130028D25D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3B17F6021F780C130028D25D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				3B17F5F71F774BAE0028D25D /* main.m */,
 				3B17F5FE1F774C1A0028D25D /* Book.h */,
 				3B17F5FF1F774C1A0028D25D /* Book.m */,
+				3B17F6011F780C130028D25D /* Person.h */,
+				3B17F6021F780C130028D25D /* Person.m */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B17F6031F780C140028D25D /* Person.m in Sources */,
 				3B17F6001F774C1A0028D25D /* Book.m in Sources */,
 				3B17F5F81F774BAE0028D25D /* main.m in Sources */,
 			);
