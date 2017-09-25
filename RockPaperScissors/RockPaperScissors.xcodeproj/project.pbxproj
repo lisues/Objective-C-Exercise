@@ -10,6 +10,7 @@
 		3B17F6111F7810960028D25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F6101F7810960028D25D /* main.m */; };
 		3B17F6191F7810CA0028D25D /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F6181F7810CA0028D25D /* RPSGame.m */; };
 		3B17F61C1F7810DD0028D25D /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B17F61B1F7810DD0028D25D /* RPSTurn.m */; };
+		3B24FC3F1F79C1640036C3D8 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B24FC3E1F79C1640036C3D8 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		3B17F6181F7810CA0028D25D /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
 		3B17F61A1F7810DD0028D25D /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
 		3B17F61B1F7810DD0028D25D /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		3B24FC3D1F79C1640036C3D8 /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		3B24FC3E1F79C1640036C3D8 /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				3B17F6181F7810CA0028D25D /* RPSGame.m */,
 				3B17F61A1F7810DD0028D25D /* RPSTurn.h */,
 				3B17F61B1F7810DD0028D25D /* RPSTurn.m */,
+				3B24FC3D1F79C1640036C3D8 /* RPSController.h */,
+				3B24FC3E1F79C1640036C3D8 /* RPSController.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				3B17F6111F7810960028D25D /* main.m in Sources */,
 				3B17F6191F7810CA0028D25D /* RPSGame.m in Sources */,
 				3B17F61C1F7810DD0028D25D /* RPSTurn.m in Sources */,
+				3B24FC3F1F79C1640036C3D8 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +264,7 @@
 				3B17F6161F7810960028D25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
