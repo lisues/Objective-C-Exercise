@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RPSTurn.h"
+#import "RPSGame.h"
 
 @interface RPSController : NSObject
 
 @property (nonatomic) int score;
+@property (nonatomic) RPSGame *game;
 
 -(instancetype) initWithScore: (int) score;
+-(void) throwDown: (Move) playersMove ;
+-(NSString *)messageForGame: (RPSGame *)game;
 
 @end

@@ -17,4 +17,8 @@
 -(instancetype) initWithFirstMove: (RPSTurn *)firstTurn
                        SecondMove: (RPSTurn *)secondTurn;
 
+-(RPSTurn *) winner;
+-(RPSTurn *) loser;
+-(NSString *) resultsString: (RPSGame *) game;
+
 @end
